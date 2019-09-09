@@ -10,11 +10,11 @@
 
 ?: Which of these are examples of platforms with APIs?
 
-( ) Facebook ( ) Github ( ) Yelp (X) All of the Above
+( ) Twitter ( ) Github ( ) Yelp (X) All of the Above
 
-?: APIs from these platforms are built on what type of framework?
+?: APIs from these platforms are built on the REST framework.
 
-( ) Remote Procedure Call (RPC) ( ) Simple Object Access Protocol (SOAP) (X) Representational State Transfer (REST) ( ) XML
+(X) True ( ) False
 
 ?: API endpoint refers to the URL that we are requesting that will return the desired data.
 
@@ -24,25 +24,21 @@
 
 ( ) `get-uri` (X) `open-uri` ( ) `OpenURI` ( ) `uri-open`
 
-?: To get back an object closer to the structure of the actual `HTTP`, what should be required?
+?: In addition, to get back an object closer to the structure of the actual `HTTP`, what should be required?
 
 ( ) `net-http` ( ) `netHTTP` ( ) `http` (X) `net/http`
 
-?: To get back an object closer to the structure of the actual `HTTP`, what should be required?
-
-( ) `net-http` ( ) `netHTTP` ( ) `http` (X) `net/http`
-
-?: To convert the `response.body` JSON, what should be required?
+?:To convert the `response.body` JSON into a Ruby Hash or Array, what should be required?
 
 (X) `json` ( ) `json-parse` ( ) `parse-json` ( ) `json-parser`
 
-?: To extract data from the object, which method should be used?
+?: To extract data from a response object, which method should be used?
 
 ( ) `.uniq` (X) `.parse()` (X) `.body` ( ) None of the Above
 
-?: To manipulate nested hashes returned in the `response.body` JSON, which method can **NOT** be used to create a new array containing the values returned by the block?
+?: To manipulate nested hashes returned in the `response.body` JSON, which method is **LEAST** optimal for creating a new array containing the values returned by the block?
 
-( ) `college` ( ) `map` (X) `each` ( ) None of the Above
+( ) `collect` ( ) `map` (X) `each` ( ) None of the Above
 
 
 ???
