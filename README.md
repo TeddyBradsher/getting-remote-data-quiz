@@ -16,7 +16,7 @@
 
 (X) True ( ) False
 
-?: API endpoint refers to the URL that we are requesting that will return the desired data.
+?: API "endpoint" refers to the URL that we are requesting that will return the desired data.
 
 (X) True ( ) False
 
